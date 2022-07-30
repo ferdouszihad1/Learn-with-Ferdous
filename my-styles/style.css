@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+h1 , h2, h3, h4, h5, h6, p,a{
+    font-family:  'Poppins', sans-serif;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+.navbar-toggler{
+    border:none;
+    outline:none;
+}
+.navbar-toggler:focus{
+
+    box-shadow: 0 0 0 0 ;
+    
+}
+.navbar-toggler:focus i{
+    color:#289BDE !important;
+}
+
+.carousel-caption{
+    top:35%;
+    bottom: auto;
+}
+
+.btn-outline-blue {
+    --bs-btn-color: #289BDE;
+    --bs-btn-border-color: #289BDE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #289BDE;
+    --bs-btn-hover-border-color: #289BDE;
+    --bs-btn-focus-shadow-rgb: 33,37,41;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #289BDE;
+    --bs-btn-active-border-color: #289BDE;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #289BDE;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #289BDE;
+    --bs-gradient: none;
+}
+
+.btn-blue {
+    background: #289BDE;
+    color:#fff;
+    transition: all .3s;
+}
+.btn-blue:hover{
+    background: #289BDE;
+    border-top: 5px solid rgb(255, 228, 50);
+    border-bottom: 5px solid rgb(255, 228, 50);
+    --bs-btn-border-width: 0px;
+   
+}
+
+.text-blue{
+    color:#289BDE;
+}
+.bg-blue{
+    background-color:#289BDE;
+}
+
+.bg-black{
+    background:#161616;
+}
+.carousel-caption h1{
+    font-size: 5vw;
+}
+.section-space{
+    margin:3rem  0 60px 0;
+}
+.section-padding{
+    padding:100px 0 ;
+}
+.bg-light-blue{
+    background-color: #F4FAFD;
+}
+.card-text{
+    color: gray;
+}
+
+.rating i{
+    color: gold;
+}
